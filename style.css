@@ -1,0 +1,79 @@
+body{
+    background-color: whitesmoke;
+}
+
+main{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.titulo{
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 30px 80px;
+    font-family: 'Inter', sans-serif;
+}
+
+.caixa_de_texto{
+    padding-bottom: 20rem;
+    padding-right: 14rem;
+    font-size: 1.5rem;
+    color: #0f0f0f;
+    margin-left: 80px;
+    box-shadow: 3px 3px 4px 2px black;
+}
+
+.conteudo{
+    margin-top: 30px;
+    margin-left: 80px;
+    border-left: solid red ;
+    
+}
+
+.texto_cripto{
+    padding-right: 10rem;
+    padding-bottom: 20rem;
+    margin-right: 80px;
+    font-size: 1.5rem;
+    box-shadow: 3px 3px 4px 2px black;
+}
+
+.botoes{
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+.botao_cripto{
+    padding:20px 60px;
+    font-size: 1rem;
+    background: black;
+    color: aliceblue;
+    border-style: none;
+    border-radius: 4px;
+}
+.botao_cripto:hover{
+    cursor: pointer;
+    background: darkred;
+}
+
+.botao_descri{
+    padding:20px 60px;
+    font-size: 1rem;  
+    background: black;
+    color: aliceblue;
+    border-style: none;
+    border-radius: 4px;
+}
+.botao_descri:hover{
+    cursor: pointer;
+    background-color: darkblue;
+}
+
+.rodape{
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin-top: 24px;
+    font-size: 12px;
+}
