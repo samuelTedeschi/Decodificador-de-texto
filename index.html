@@ -14,25 +14,26 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    <head>
-        <h1 class="titulo">Decodificador de texto</h1>
-    </head>
-    <main>
-        <section>
-            <input type="text" value="Digite seu texto" class="caixa_de_texto" id="cxtexto">
-            <p class="conteudo">Apenas letras minusculas e sem acento</p>
+    <header>
+        <h1 >Decodificador de texto</h1>
+    </header>
+    
+        <div>
+            <div class="txt_area">
+                <textarea name="texto principal" id="cxTexto" cols="30" rows="10" class="caixa_de_texto" placeholder="digite aqui.."></textarea>
+                
+                <textarea id="resultado" class="texto_cripto"></textarea>
+            </div>
+            
+
+            <p>Apenas letras minusculas e sem acento</p>
 
             <div class="botoes">
                 <input type="submit" value="Criptografar" class="botao_cripto" id="codificar">
                 <input type="submit" value="Descriptografar" class="botao_descri" id="decodificar">
             </div>
-        </section>
-
-        <section>
-            <input type="text"  class="texto_cripto" id="resultado">
-        </section>
-    </main>
-    <footer><p class="rodape">Desenvolvido por Samuel Tedeschi</p></footer>
+        </div>  
+    
 </body>
 <script src="script.js"></script>
 </html>

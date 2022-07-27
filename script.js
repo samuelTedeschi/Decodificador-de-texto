@@ -1,6 +1,6 @@
 const codifica=document.querySelector("#codificar");
 const decodificar=document.querySelector("#decodificar");
-const caixaTexto=document.querySelector("#cxtexto");
+const caixaTexto=document.querySelector("#cxTexto");
 const resultado=document.querySelector("#resultado");
 
 codifica.addEventListener("click", function criptografar (){

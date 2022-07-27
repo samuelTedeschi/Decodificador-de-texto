@@ -1,47 +1,50 @@
 body{
-    background-color: whitesmoke;
+    background-color: lightblue;
 }
 
-main{
-    font-family: 'Inter', sans-serif;
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.titulo{
+header h1{
     font-size: 3rem;
     font-weight: 500;
-    margin: 30px 80px;
+    text-align: center;
+    margin: 40px 0 30px;
     font-family: 'Inter', sans-serif;
+}
+
+.txt_area{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .caixa_de_texto{
-    padding-bottom: 20rem;
-    padding-right: 14rem;
-    font-size: 1.5rem;
-    color: #0f0f0f;
-    margin-left: 80px;
-    box-shadow: 3px 3px 4px 2px black;
-}
-
-.conteudo{
-    margin-top: 30px;
-    margin-left: 80px;
-    border-left: solid red ;
-    
+    width: 48%;
+    height: 300px;
+    font-size: 1rem;
+    font-family: 'Inter';
+    border-style: none;
+    border-radius: 8px;
 }
 
 .texto_cripto{
-    padding-right: 10rem;
-    padding-bottom: 20rem;
-    margin-right: 80px;
-    font-size: 1.5rem;
-    box-shadow: 3px 3px 4px 2px black;
+    width: 48%;
+    height: 300px;
+    font-size: 1rem;
+    font-family: 'Inter';
+    border-radius: 8px;
+    border-style: none;
+}
+
+div p{
+    margin-top: 30px;
+    margin-left: 50px;
+    border-left: solid red;
+    font-family: 'Inter';
+    
 }
 
 .botoes{
-    margin-left: 80px;
+    margin-left: 50px;
     margin-top: 30px;
 }
 
@@ -65,6 +68,7 @@ main{
     color: aliceblue;
     border-style: none;
     border-radius: 4px;
+    margin-left: 20px;
 }
 .botao_descri:hover{
     cursor: pointer;
